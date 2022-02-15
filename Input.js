@@ -1,4 +1,4 @@
-/// *******In the name of Allah*******;
+/// *******In the name of Allah******* ///
 
 var readline = require('readline');
 
