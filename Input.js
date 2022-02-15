@@ -7,7 +7,7 @@ var rl = readline.createInterface(
 
 rl.question('', (test) => { /// 'test' is just a variable to take input
     
-  /// write any code here
+  /// write any code here ///
   
     rl.close(); /// close to take input
 });
