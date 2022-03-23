@@ -16,5 +16,5 @@ function closure01(x)
 
 var a = closure01(17) /// closure01 returns closure 02
 var b = a(27)        /// closure02 returns closure03
-var c = b(37)       /// finally closure03 returns the answer;
+var c = b(37)       /// finally closure03 returns the answer
 console.log(c);
