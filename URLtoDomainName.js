@@ -51,4 +51,7 @@ function domainName(a) {
     }
     return d;
 }
-console.log(domainName("cwwwmn.com"));
+
+
+
+console.log(domainName("https://cwwwmn.com"));
