@@ -64,7 +64,6 @@ function domainName(a) {
 }
 
 
-
 var url = "https://www.google.com";
 
 
