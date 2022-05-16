@@ -1,7 +1,6 @@
 /// *******In the name of Allah******* ///
 
 function domainName(a) {
-    
     var b = 0, c = 0, d = "";
     for (var i = 0; i < a.length; i++) {
         if (a[i] === ":") {
@@ -10,13 +9,8 @@ function domainName(a) {
         }
     }
     if (b) {
-        for (var i = b + 3; i < a.length; i++) {
-            if (a[i] === "w") {
-                c++;
-                if (c === 3)
-                    break;
-            }
-        }
+        if(a[b + 3]==="w" && a[b + 4]==="w" && a[b + 5]==="w")
+            c = 3;
         if (c === 3) {
             for (var i = b + 7; i < a.length; i++) {
                 if (a[i] !== ".")
@@ -36,13 +30,8 @@ function domainName(a) {
         }
     }
     else if (!b) {
-        for (var i = 0; i < a.length; i++) {
-            if (a[i] === "w") {
-                c++;
-                if (c === 3)
-                    break;
-            }
-        }
+        if(a[0]==="w" && a[1]==="w" && a[2]==="w" && a[3]===".")
+            c = 3;
         if (c === 3) {
             for (var i = 4; i < a.length; i++) {
                 if (a[i] !== ".")
@@ -62,9 +51,4 @@ function domainName(a) {
     }
     return d;
 }
-
-
-var url = "https://www.google.com";
-
-
-console.log(domainName(url));
+console.log(domainName("cwwwmn.com"));
