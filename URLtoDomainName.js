@@ -1,6 +1,7 @@
 /// *******In the name of Allah******* ///
 
 function domainName(a) {
+    
     var b = 0, c = 0, d = "";
     for (var i = 0; i < a.length; i++) {
         if (a[i] === ":") {
