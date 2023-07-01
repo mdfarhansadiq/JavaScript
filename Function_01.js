@@ -6,3 +6,7 @@ function squareNum(a)
 }
 const Val = squareNum(7);
 console.log(Val);
+
+
+
+
