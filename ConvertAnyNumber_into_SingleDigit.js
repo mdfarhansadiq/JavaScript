@@ -1,5 +1,6 @@
 /// *******In the name of Allah******* ///
 
+
 function singleDigit(a) {
     var b = 0, c = 1, s = "", cnt = 0;
     while (1) {
