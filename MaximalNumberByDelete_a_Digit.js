@@ -1,5 +1,6 @@
 /// *******In the name of Allah******* ///
 
+
 function deleteDigit(a) {
     var b = 0, c = [], d = 0, e = [], f = 0, g = 0;
     a = a.toString();
@@ -25,6 +26,5 @@ function deleteDigit(a) {
         if(Mx<e[i])
             Mx = e[i];
     }
-
     return Mx;
 }
